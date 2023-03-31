@@ -6,11 +6,13 @@ Netfilterqueue
 
 ## Steps:
 ```sh
-# Redirect iptables to bind queues
+# Redirect iptables to bind queues:
 $ ./ipt_spoof.sh
-# Run DNS spoof againt target machine
+
+# Run DNS spoof:
 $ python dns_spoof -a [TARGETADDRESS] -r [RDATA]
-# Flush iptables to normal again       
+
+# Flush iptables to normal again:    
 $ ./ipt_flush.sh 
 
 # man
@@ -24,4 +26,9 @@ With DNS spoofing we can redirect target to any site we want instead of what tar
 I wrote this tool only for educational purposes. This kind of action is against law if you do not have permission. You have been warned.
 All Rights Reserved.
 
+
+## Manual:
+![dns_spoof_man](https://user-images.githubusercontent.com/53910160/229232572-4bb38670-9833-4423-adcb-331a1c89f9c1.png)
+
 ## Example:
+![dns_spoof](https://user-images.githubusercontent.com/53910160/229232612-63b5f07d-ef77-4ee1-93a9-a30cb3d0c13f.png)
