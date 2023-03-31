@@ -18,7 +18,7 @@ Netfilterqueue
 $ ./ipt_spoof.sh
 
 # Run DNS spoof:
-$ python dns_spoof -a [TARGETADDRESS] -r [RDATA]
+$ python dns_spoof.py -a [TARGETADDRESS] -r [RDATA]
 
 # After attack flush iptables to normal again:    
 $ ./ipt_flush.sh 
