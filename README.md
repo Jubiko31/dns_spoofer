@@ -1,7 +1,15 @@
 # >> DNS Spoofing tool <<
 
+## What is DNS Spoofing
+
+DNS Spoofing or poisoning is process to modify DNS server to redirect a targeted user to a malicious website under attacker control.
+
+![image](https://user-images.githubusercontent.com/53910160/229233873-cfcf8cb1-4cf9-419f-9b29-766cb5cc7845.png)
+
+
 ## Requirements:
 Python v3
+
 Netfilterqueue
 
 ## Steps:
@@ -24,7 +32,8 @@ With DNS spoofing we can redirect target to any site we want instead of what tar
 
 ## DISCLAIMER:
 I wrote this tool only for educational purposes. This kind of action is against law if you do not have permission. You have been warned.
-All Rights Reserved.
+
+@ All Rights Reserved.
 
 
 ## Manual:
