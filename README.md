@@ -20,7 +20,7 @@ $ ./ipt_spoof.sh
 # Run DNS spoof:
 $ python dns_spoof -a [TARGETADDRESS] -r [RDATA]
 
-# Flush iptables to normal again:    
+# After attack flush iptables to normal again:    
 $ ./ipt_flush.sh 
 
 # man
